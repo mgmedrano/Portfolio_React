@@ -1,9 +1,9 @@
 import React from "react";
 
 export default function Contact() {
-    const [name, setName] = React.useState("");
-    const [email, setEmail] = React.useState("");
-    const [message, setMessage] = React.useState("");
+    const [name, ] = React.useState("");   //setName
+    const [email, ] = React.useState("");  //setEmail
+    const [message, ] = React.useState(""); //setMessage
   
     function encode(data) {
       return Object.keys(data)
@@ -69,7 +69,7 @@ export default function Contact() {
             Contact Me
           </h2>
           <p className="leading-relaxed mb-5">
-            What to discuss future opportunites? Leave me your name, email, and a message.
+            What to discuss future opportunities? Leave me your name, email, and a message.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
