@@ -46,24 +46,18 @@ export const projects = [
     description:
       "At the beginning days of my coding journey, I had to refactor code to optimize a website for search engines additionally making it more accessible.",
     image: "./codeRefactor.png",
-    link: "https://mgmedrano.github.io/CodeRefactor/",
+    link: "https://drive.google.com/u/1/uc?id=1_-lAIKBpX9Ygi9Lk-QfghvQWpMiXzGYr&export=download",
   },
 ];
 
 export const resumes = [
   {
-    quote:
-      "Connect with me on LinkedIn",
+    name:"LinkedIn",
     link: "https://www.linkedin.com/in/mgmedrano/",
-    name: "LinkedIn",
-    company: "",
   },
   {
-    quote:
-      "Downloadable PDF",
-    link: "",
-    name: "Downloadable PDF",
-    company: "",
+    name:"Downloadable PDF",
+    link: "https://drive.google.com/file/d/1_-lAIKBpX9Ygi9Lk-QfghvQWpMiXzGYr/view",
   },
 ];
 
@@ -71,9 +65,9 @@ export const skills = [
   "HTML",
   "CSS",
   "JavaScript",
-  "SQL/NoSQL/GraphQL",
+  "jQuery",
+  "Web, Third-Party APIs",
   "NodeJS",
   "React",
-  "PWA",
-  "MERN",
+  "GitHub",
 ];
