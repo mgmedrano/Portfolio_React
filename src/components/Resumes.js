@@ -4,7 +4,7 @@ import { resumes } from "../data";
 
 export default function Resumes() {
   return (
-    <section id="resumes">
+    <section id="resume">
       <div className="container px-5 py-10 mx-auto text-center">
         <UsersIcon className="w-10 inline-block mb-4" />
         <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-12">
@@ -18,7 +18,7 @@ export default function Resumes() {
                 <p className="leading-relaxed mb-6">{resume.quote}</p>
                 <div className="inline-flex items-center">
                   <img
-                    alt="testimonial"
+                    alt="resume"
                     src={resume.link}
                     className="w-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
