@@ -29,4 +29,4 @@
 
 ## Links:
 - URL: https://mgmedrano.github.io/Portfolio_React/
-- GitHub Repository: https://mgmedrano.github.io/Portfolio_React/
+- GitHub Repository: https://github.com/mgmedrano/Portfolio_React

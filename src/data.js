@@ -21,7 +21,7 @@ export const projects = [
     subtitle: "Collaborative Project",
     description:
       "As the world heavily relied on Corporate stores for resources during the Pandemic, it is important more now than ever that we support the community we live in. Support locally!",
-    image: "./local4u2u.gif",
+    image: "./local4U2U.gif",
     link: "https://obscure-reef-30952.herokuapp.com/",
   },
   {
