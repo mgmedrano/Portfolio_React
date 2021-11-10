@@ -32,22 +32,22 @@ export const projects = [
     image: "./ReadMe_Gen.gif",
     link: "https://github.com/mgmedrano/Professional_README_Generator",
   },
-  {
-    title: "Online/Offline Budget Tracker",
-    subtitle: "Individual Project",
-    description:
-      "A budget tracker with functionality that allows for offline and online access to enter deposits and expenses. Use of MongoDB and deployed through",
-    image: "./On_Off_Budget_1.png",
-    link: "https://young-plains-53960.herokuapp.com/",
-  },
-  {
-    title: "Code Refactor",
-    subtitle: "Individual Project",
-    description:
-      "At the beginning days of my coding journey, I had to refactor code to optimize a website for search engines additionally making it more accessible.",
-    image: "./codeRefactor.png",
-    link: "https://drive.google.com/u/1/uc?id=1_-lAIKBpX9Ygi9Lk-QfghvQWpMiXzGYr&export=download",
-  },
+  // {
+  //   title: "Online/Offline Budget Tracker",
+  //   subtitle: "Individual Project",
+  //   description:
+  //     "A budget tracker with functionality that allows for offline and online access to enter deposits and expenses. Use of MongoDB and deployed through",
+  //   image: "./On_Off_Budget_1.png",
+  //   link: "https://young-plains-53960.herokuapp.com/",
+  // },
+  // {
+  //   title: "Code Refactor",
+  //   subtitle: "Individual Project",
+  //   description:
+  //     "At the beginning days of my coding journey, I had to refactor code to optimize a website for search engines additionally making it more accessible.",
+  //   image: "./codeRefactor.png",
+  //   link: "https://drive.google.com/u/1/uc?id=1_-lAIKBpX9Ygi9Lk-QfghvQWpMiXzGYr&export=download",
+  // },
 ];
 
 export const resumes = [
