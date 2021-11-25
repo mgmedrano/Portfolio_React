@@ -1,4 +1,5 @@
 import React from "react";
+
 export default function About() {
     return (
       <section id="about">
@@ -6,7 +7,6 @@ export default function About() {
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                Mike Medrano | Full Stack Web Developer
-              {/* <br className="hidden lg:inline-block" />Boot Camp Student | Full Stack Web Developer */}
             </h1>
             <p className="mb-8 leading-relaxed">
             Hi! I'm Mike Medrano and I am currently a Boot Camp Student as a Full Stack Web Developer. I have learned many things and continue to adapt to new technologies. Check out my past work, resume, or feel free to contact me!

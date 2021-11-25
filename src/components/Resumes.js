@@ -1,5 +1,5 @@
 import React from "react";
-import { TerminalIcon, UsersIcon } from "@heroicons/react/solid";
+import { UsersIcon } from "@heroicons/react/solid";
 import { resumes } from "../data";
 
 export default function Resumes() {
@@ -14,8 +14,6 @@ export default function Resumes() {
           {resumes.map((resume) => (
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded">
-                {/* <TerminalIcon className="block w-8 text-gray-500 mb-4" /> */}
-                {/* <p className="leading-relaxed mb-6">{resume.name}</p> */}
                 <div className="inline-flex items-center">
                 <a
                 href={resume.link}
@@ -24,16 +22,7 @@ export default function Resumes() {
                   <img
                     alt=""
                     src={resume.link}
-                    // className="w-12 rounded-full flex-shrink-0 object-cover object-center"
                   />
-                  {/* <span className="flex-grow flex flex-col pl-4">
-                    <span className="title-font font-medium text-white">
-                      {resume.name}
-                    </span> */}
-                    {/* <span className="text-gray-500 text-sm uppercase">
-                      {resume.company}
-                    </span> */}
-                  {/* </span> */}
                 </div>
               </div>
             </div>

@@ -1,9 +1,9 @@
 import React from "react";
 
 export default function Contact() {
-    const [name, ] = React.useState("");   //setName
-    const [email, ] = React.useState("");  //setEmail
-    const [message, ] = React.useState(""); //setMessage
+    const [name, ] = React.useState("");   
+    const [email, ] = React.useState("");  
+    const [message, ] = React.useState("");
   
     function encode(data) {
       return Object.keys(data)
